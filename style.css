@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E6E3E3;
+
+    width: 100%;
+    height: 91px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 24px;
+}
+.abas{
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;  
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-bottom: 0px;
+}
+
+.sociais{
+    gap: 16px;
+    margin: 24px;
+    
+}
+
+
+
+.home{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.destaque{
+    width: 50%;
+    height: 780px;
+    margin-top: 20px;
+    margin-left: 35px;
+
+    background: #D9D9D9;
+}
+
+.sobre{
+    width: 50%;
+    height: 626px;
+    left: 809px;
+    top: 560px;
+}
+
+.imgdestaq{
+    width: auto;
+    height: 385px;
+    margin: 16px;
+
+    background: #FFFFFF;
+}
+
+.titulo{
+    margin: 16px 16px 0px 16px;
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.autor{
+    margin: 0px 16px 32px 16px;
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+.contdestaq{
+    margin: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.125em;
+}
